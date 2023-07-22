@@ -1,0 +1,151 @@
+ /* Variables */
+$fondo-profundidad-1:#606060b4;
+$fondo-profundidad-2:#ffffff9e;
+ /* Fuentes */
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ /* SCSSC */
+
+#pokeball{
+max-width: 100%;
+max-height: 100%;
+
+}
+#cuerpo{
+    background-color: $fondo-profundidad-1;
+    border-radius: 5%;
+    padding: 3%;
+    max-height: 20rem;
+    overflow: auto;
+        p{
+            background-color: $fondo-profundidad-2;
+            border-radius: 3%;
+            font-family: 'Press Start 2P', cursive;
+        }
+}
+#pokebola{
+    background-color: $fondo-profundidad-1;
+    border-radius: 5%;
+    padding: 3%;
+    max-height: fit-content;
+    overflow: auto;
+    text-align: center;
+}
+#container1{
+    height: fit-content;
+}
+#texto2{
+    background-color: $fondo-profundidad-1;
+    border-radius: 5%;
+    padding: 3%;
+    max-height: 20rem;
+    overflow: auto;
+        p{
+            background-color: $fondo-profundidad-2;
+            border-radius: 3%;
+            margin: 3%;
+            font-family: 'Press Start 2P', cursive;
+            
+        }
+    
+}
+#video{
+    background-color: $fondo-profundidad-1;
+    border-radius: 5%;
+    padding: 3%;;
+    height: 20rem;
+}
+#bodyindex{
+    background-image: url(../assets/img/background.jpeg);
+
+}
+
+
+#titulo {
+        div{
+        font-family: 'Press Start 2P', cursive;
+        background-color: #ffffffa0;
+        border-radius: 25%;
+        text-align: center;
+        padding: 1%;
+          }
+}
+       
+
+#bodyfuego
+{
+    border: 0px;
+    font-size: 20px;
+    background-image: url(../assets/img/fondofuego.jpg);
+}
+#bodyplanta
+{
+    border: 0px;
+    font-size: 20px;
+    background-image: url(../assets/img/fondoplanta.jpg);
+}
+#bodyagua
+{
+    border: 0px;
+    font-size: 20px;
+    background-image: url(../assets/img/fondoagua.jpg);
+}
+#bodycontact
+{
+    border: 0px;
+    font-size: 20px;
+    background-image: url(../assets/img/background.jpeg);
+}
+.picontainer{
+    background-color: $fondo-profundidad-1;
+    border-radius: 5%;
+    padding: 3%;
+    text-align: center;
+}
+.picss{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    background-color: #ffffff69;
+    border-radius: 3%;
+
+}
+#testo{
+    background-color: $fondo-profundidad-2;
+    border-radius: 3%;
+    font-family: 'Press Start 2P', cursive;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #dddddd6f;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+.formulario{
+    background-color: #405e9d7c;
+}

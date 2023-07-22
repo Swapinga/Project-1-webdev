@@ -1,139 +1,152 @@
-  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-#pokeball{
-max-width: 100%;
-max-height: 100%;
-
-}
-#cuerpo{
-    background-color: #606060b4;
-    border-radius: 5%;
-    padding: 3%;
-    max-height: 20rem;
-    overflow: auto;
-
-}
-#pokebola{
-    background-color: #606060b4;
-    border-radius: 5%;
-    padding: 3%;
-    max-height: fit-content;
-    overflow: auto;
-    text-align: center;
-}
-#container1{
-    height: fit-content;
-}
-#texto2{
-    background-color: #606060b4;
-    border-radius: 5%;
-    padding: 3%;
-    max-height: 20rem;
-    overflow: auto;
-    
-}
-#video{
-    background-color: #606060b4;
-    border-radius: 5%;
-    padding: 3%;;
-    height: 20rem;
-}
-#bodyindex{
-    background-image: url(../assets/img/background.jpeg);
-
-}
-#cuerpo p{
-    background-color: #ffffff9e;
-    border-radius: 3%;
-    font-family: 'Press Start 2P', cursive;
-}
-#texto2 p{
-    background-color: #ffffff9e;
-    border-radius: 3%;
-    margin: 3%;
-    font-family: 'Press Start 2P', cursive;
-    
-}
-#titulo div{
-    font-family: 'Press Start 2P', cursive;
-    background-color: #ffffffa0;
-    border-radius: 25%;
-    text-align: center;
-    padding: 1%;
+/* Variables */
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* SCSSC */
+#pokeball {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-#bodyfuego
-{
-    border: 0px;
-    font-size: 20px;
-    background-image: url(../assets/img/fondofuego.jpg);
+#cuerpo {
+  background-color: rgba(96, 96, 96, 0.7058823529);
+  border-radius: 5%;
+  padding: 3%;
+  max-height: 20rem;
+  overflow: auto;
 }
-#bodyplanta
-{
-    border: 0px;
-    font-size: 20px;
-    background-image: url(../assets/img/fondoplanta.jpg);
+#cuerpo p {
+  background-color: rgba(255, 255, 255, 0.6196078431);
+  border-radius: 3%;
+  font-family: "Press Start 2P", cursive;
 }
-#bodyagua
-{
-    border: 0px;
-    font-size: 20px;
-    background-image: url(../assets/img/fondoagua.jpg);
-}
-#bodycontact
-{
-    border: 0px;
-    font-size: 20px;
-    background-image: url(../assets/img/background.jpeg);
-}
-.picontainer{
-    background-color: #606060b4;
-    border-radius: 5%;
-    padding: 3%;
-    text-align: center;
-}
-.picss{
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    background-color: #ffffff69;
-    border-radius: 3%;
 
+#pokebola {
+  background-color: rgba(96, 96, 96, 0.7058823529);
+  border-radius: 5%;
+  padding: 3%;
+  max-height: fit-content;
+  overflow: auto;
+  text-align: center;
 }
-#testo{
-    background-color: #ffffff9e;
-    border-radius: 3%;
-    font-family: 'Press Start 2P', cursive;
+
+#container1 {
+  height: fit-content;
 }
+
+#texto2 {
+  background-color: rgba(96, 96, 96, 0.7058823529);
+  border-radius: 5%;
+  padding: 3%;
+  max-height: 20rem;
+  overflow: auto;
+}
+#texto2 p {
+  background-color: rgba(255, 255, 255, 0.6196078431);
+  border-radius: 3%;
+  margin: 3%;
+  font-family: "Press Start 2P", cursive;
+}
+
+#video {
+  background-color: rgba(96, 96, 96, 0.7058823529);
+  border-radius: 5%;
+  padding: 3%;
+  height: 20rem;
+}
+
+#bodyindex {
+  background-image: url(../assets/img/background.jpeg);
+}
+
+#titulo div {
+  font-family: "Press Start 2P", cursive;
+  background-color: rgba(255, 255, 255, 0.6274509804);
+  border-radius: 25%;
+  text-align: center;
+  padding: 1%;
+}
+
+#bodyfuego {
+  border: 0px;
+  font-size: 20px;
+  background-image: url(../assets/img/fondofuego.jpg);
+}
+
+#bodyplanta {
+  border: 0px;
+  font-size: 20px;
+  background-image: url(../assets/img/fondoplanta.jpg);
+}
+
+#bodyagua {
+  border: 0px;
+  font-size: 20px;
+  background-image: url(../assets/img/fondoagua.jpg);
+}
+
+#bodycontact {
+  border: 0px;
+  font-size: 20px;
+  background-image: url(../assets/img/background.jpeg);
+}
+
+.picontainer {
+  background-color: rgba(96, 96, 96, 0.7058823529);
+  border-radius: 5%;
+  padding: 3%;
+  text-align: center;
+}
+
+.picss {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  background-color: rgba(255, 255, 255, 0.4117647059);
+  border-radius: 3%;
+}
+
+#testo {
+  background-color: rgba(255, 255, 255, 0.6196078431);
+  border-radius: 3%;
+  font-family: "Press Start 2P", cursive;
+}
+
 .divider-text {
-    position: relative;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
+
 .divider-text span {
-    padding: 7px;
-    font-size: 12px;
-    position: relative;   
-    z-index: 2;
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
 }
+
 .divider-text:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    border-bottom: 1px solid #dddddd6f;
-    top: 55%;
-    left: 0;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.4352941176);
+  top: 55%;
+  left: 0;
+  z-index: 1;
 }
 
 .btn-facebook {
-    background-color: #405D9D;
-    color: #fff;
+  background-color: #405D9D;
+  color: #fff;
 }
+
 .btn-twitter {
-    background-color: #42AEEC;
-    color: #fff;
+  background-color: #42AEEC;
+  color: #fff;
 }
-.formulario{
-    background-color: #405e9d7c;
+
+.formulario {
+  background-color: rgba(64, 94, 157, 0.4862745098);
 }
+
+/*# sourceMappingURL=styles.css.map */
