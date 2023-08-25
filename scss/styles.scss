@@ -21,6 +21,7 @@ max-height: 100%;
             background-color: $fondo-profundidad-2;
             border-radius: 3%;
             font-family: 'Press Start 2P', cursive;
+            padding: 3%;
         }
 }
 #pokebola{
@@ -37,7 +38,7 @@ max-height: 100%;
 #texto2{
     background-color: $fondo-profundidad-1;
     border-radius: 5%;
-    padding: 3%;
+    padding: 2%;
     max-height: 20rem;
     overflow: auto;
         p{
@@ -45,6 +46,7 @@ max-height: 100%;
             border-radius: 3%;
             margin: 3%;
             font-family: 'Press Start 2P', cursive;
+            padding: 3%;
             
         }
     
@@ -98,22 +100,25 @@ max-height: 100%;
 }
 .picontainer{
     background-color: $fondo-profundidad-1;
-    border-radius: 5%;
     padding: 3%;
     text-align: center;
+
 }
 .picss{
-    max-width: 100%;
-    min-width: 100%;
+    max-width: 70%;
     max-height: 100%;
     background-color: #ffffff69;
     border-radius: 3%;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-#testo{
+.testo{
     background-color: $fondo-profundidad-2;
     border-radius: 3%;
     font-family: 'Press Start 2P', cursive;
+    padding: 3%;
+    font-size: medium;
 }
 .divider-text {
     position: relative;
@@ -148,3 +153,24 @@ max-height: 100%;
 .formulario{
     background-color: #405e9d7c;
 }
+#fire{
+    max-width: 50% ;
+}
+.carrito{
+    text-align: center;
+}
+#carrofuego h5{
+    background-color: #9d6240;
+}
+#carroplanta h5{
+    background-color: #34712e;
+}
+#carroagua h5{
+    background-color: #214664;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }

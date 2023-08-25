@@ -18,6 +18,7 @@
   background-color: rgba(255, 255, 255, 0.6196078431);
   border-radius: 3%;
   font-family: "Press Start 2P", cursive;
+  padding: 3%;
 }
 
 #pokebola {
@@ -36,7 +37,7 @@
 #texto2 {
   background-color: rgba(96, 96, 96, 0.7058823529);
   border-radius: 5%;
-  padding: 3%;
+  padding: 2%;
   max-height: 20rem;
   overflow: auto;
 }
@@ -45,6 +46,7 @@
   border-radius: 3%;
   margin: 3%;
   font-family: "Press Start 2P", cursive;
+  padding: 3%;
 }
 
 #video {
@@ -92,23 +94,26 @@
 
 .picontainer {
   background-color: rgba(96, 96, 96, 0.7058823529);
-  border-radius: 5%;
   padding: 3%;
   text-align: center;
 }
 
 .picss {
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 70%;
   max-height: 100%;
   background-color: rgba(255, 255, 255, 0.4117647059);
   border-radius: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#testo {
+.testo {
   background-color: rgba(255, 255, 255, 0.6196078431);
   border-radius: 3%;
   font-family: "Press Start 2P", cursive;
+  padding: 3%;
+  font-size: medium;
 }
 
 .divider-text {
@@ -147,6 +152,33 @@
 
 .formulario {
   background-color: rgba(64, 94, 157, 0.4862745098);
+}
+
+#fire {
+  max-width: 50%;
+}
+
+.carrito {
+  text-align: center;
+}
+
+#carrofuego h5 {
+  background-color: #9d6240;
+}
+
+#carroplanta h5 {
+  background-color: #34712e;
+}
+
+#carroagua h5 {
+  background-color: #214664;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
